@@ -11,6 +11,7 @@ double print_total(ostream &os,const Quote&item,size_t n)
 }
 double Bulk_quote::net_price(size_t cnt)const
 {
+	cout << "Bulk_quote::net_price" << endl;
 	if (cnt>=quantity)
 	{
 		return cnt * (1 - discount)*price;
