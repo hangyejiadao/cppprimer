@@ -14,7 +14,7 @@ public:
 	Quote(const std::string&book, double sales_price) :bookNo(book), price(sales_price){};
 	virtual ~Quote(){}
 	string isbn()const{ return bookNo; }
-	virtual double net_price(std::size_t n)const{ return n*price; }
+	virtual double net_price(std::size_t n)const { cout << "Quote::net_price" << endl; return n * price; }
 	virtual Quote*clone()const{ return new Quote(*this); }
 private:
 	string bookNo;
