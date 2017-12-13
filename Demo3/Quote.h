@@ -5,9 +5,7 @@
 #include<string>
 #include<cstddef> 
 using namespace std;
-
-
-
+ 
 class Quote
 {
 	friend istream operator>>(istream&, Quote&);
