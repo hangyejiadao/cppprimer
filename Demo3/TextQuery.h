@@ -22,3 +22,4 @@ private:
 	map < string, shared_ptr<set<line_no>>>wm;
 	static string cleanup_str(const string&);
 };
+#endif
