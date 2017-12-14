@@ -13,4 +13,4 @@ template<typename U,typename T>bool my_find(const U& it1,const U& it2,const T& v
 	}
 	return false;
 }
-#endif
+#endif MY_FIND_H
